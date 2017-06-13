@@ -1,18 +1,31 @@
 @import url(//fonts.googleapis.com/css?family=Telex);
 
 .themefg {
-  color: rgb(47, 86, 111);
+  color: rgb(189,122,56);
 }
 
 .themebg {
-  background-color: rgb(47, 86, 111);
+  background-color: rgb(189,122,56);
+}
+.nav-menus {
+  height: 0px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar a.navbar-title {
-	color: white;
-  font-size: 28px;
+  font-size: 36px;
+  color: white;
   white-space: nowrap;
-  -webkit-text-stroke: 0.2px black;
+  -webkit-text-stroke: 1px rgb(189,122,56);
+}
+
+.nav-menus a.navbar-brand {
+  padding: 10px 10px;
+  color: white;
 }
 
 .navbar-control {
