@@ -11,10 +11,16 @@
   height: 0px;
 }
 
-.navbar-nav > li > a {
-  padding-top: 0px;
+.navbar-inverse .navbar-nav > li > a {
+  padding-top: 4px;
   padding-bottom: 0px;
+  color: white;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  font-weight: bold;
+}
+
 
 .navbar a.navbar-title {
   font-size: 32px;
@@ -25,12 +31,12 @@
 }
 
 .nav-menus a.navbar-brand {
-  padding: 10px 10px;
+  padding: 4px 10px;
   color: white;
 }
 
-.navbar-control {
-  padding-top: 10px;
+.nav-menus a.navbar-brand:hover {
+  font-weight: bold;
 }
 
 .nav-btn.btn-mini {
@@ -45,6 +51,7 @@
 
 .navbar a:hover {
 	color: white;
+  text-decoration: none;
 }
 
 .navbar-title {
@@ -57,7 +64,7 @@
 .navbar .input-group-sm input{
 	height: 22px;
 	width: 150px;
-	margin-top: 6px;
+	margin-top: 4px;
 }
 
 h1, h2, h3, h4, h5{
