@@ -16,7 +16,11 @@ compile "/content/tipuesearch/tipuesearch_content.js.erb" do
   filter :erb
 end
 
-compile '/**/*.md.erb' do
+compile '/**/*.ical.erb' do
+  filter :erb
+end
+
+compile '/**/*.{md,ical}.erb' do
   if item[:status] != "hidden"
     filter :erb
     filter :kramdown
