@@ -12,3 +12,6 @@
 * Kind of a hackathon/case cometition that goes a whole semester
 * Does not require Cosi
 * Officially cross referenced with Business
+
+### add pre- and post- survey + essay
+* Write a paragraph or two about your own views of yourself as an entrepreneur or someone who really wants to start their own company or someone who loves being part of something bigger, an established company with a huge impact on the world. Do you feel that would be exciting or too risky? Could you see it either way or do you have a clear vision in one direction or the other? Do you feel you have a sense that you know it takes to be an entrepreneur?
