@@ -1,20 +1,27 @@
 ---
-title: Cosi 165a
+title: Marketing for Entrepreneurs
+desc: Introduction to Marketing, some basic concepts and directions
+homework: 1) Reflect on LS approach; 2) Team works on Value Prop Canvas
+cat: Revenue
 ---
-<div class="jumbotron">
-  <h2>Software Entrepreneurship</h2>
-  <p>Learn the "Lean Startup" conceptual framework. Find a fruitful problem space, conceive of a solution, test it, measure it, and iterate on it methodically and quickly. Have you achieved product/market fit? Does your solution have a chance as a viable business? Better to figure out before implementing the whole product! We will look at that cycle from different perspectives and with different points of view. We will learn this while working in teams to apply what we learn to two real world scenarios.</p>
-  <p>Pito Salas, pitosalas@brandeis.edu</p>
-</div>
+<%= homework_hdr %>
+**Legend**: <%=partbadge%>:Participation <%= timebadge %>:Early <%= pdfbadge %>:PDF
 
-**We want to take an idea** -- let's say a 'good idea' (see <%= link_to_topic :ideas_are_cheap %>) -- to fruition as a business that has a chance to make real money and/or have an big imact on a many real people's lives. Not a hobby that you pursue because you'd like to learn and grow -- which is fine -- but something that you have real reason to believe will make a big difference. It is said that 9 out of 10 startups fail. Our goal is to improve your odds.
+1. <%= partbadge %> <%= pdfbadge %> **Read:** Reflect on your personal reactions and feelings on the Lean Startup technique. Please don't simply parrot what's in the book. Pause to think about what it has been like to apply it so far. What are some key learnings? How would you explain it to a friend? What parts of it don't you think are valuable? <%= deliverable "Post with your personal reflection" %>
 
-**This is not a software engineering course!**It is a course that helps you discover and practice the discipline and tools to develop your idea and to assure that it will meet its goals - like making money and/or having an actual real impact on the world.
+#### Discussion
+* Look over the "[Value Proposition Canvas](http://www.businessmodelgeneration.com/downloads/value_proposition_canvas.pdf)" and discuss.
 
-I use the line "is this a hobby or a business." For this course I am not interested in doing a project because it's fun or you get to learn how to use rails or javascript. Those are great personal goals which are fine but will not effect a change in the world.
+<%= include_topic :elevator_pitch %>
+<%= include_topic :elevator_pitch_exercise %>
+<%= include_topic :markets %>
 
-<%= callout("Pro Tip", " Read " + link_to_section(:welcome, :term_overview) + ", " + link_to_background(:learning_goals) + " and " + link_to_lecture(:welcome) + " to really understand what this course is and is not about. The side  bar to the right contains a ton more info!") %>
+#### Summary
+* What is an Elevator Pitch
+* How do you design one?
+* Market Segments
+* Value proposition
+* Market Entry
 
-### Complete Outline of Lectures
-
-<%= list_of(source: "lectures", rows: ["subsection","page"], cols: [:number, :date, :title, :desc, :homework, ], items: items) %>
+#### Next Class
+* Look at homework: <%= link_to_next_lecture %>

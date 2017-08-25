@@ -6,10 +6,10 @@ cat: Skills
 ---
 
 <%= homework_hdr %>
-**Legend**: <%=partbadge%>:Participation <%= timebadge %>:Early <%= pdfbadge %>:PDF
+**Legend**: <%=partbadge%>: Participation | <%= timebadge %>: Early | <%= pdfbadge %>: PDF |  <%=cloudbadge %>: Portfolio | <%=zipbadge %>: Zipped
 
-1. <%= partbadge %> <%= pdfbadge %>**Personal reflection**: <%= include_topic :hw_reflection_teamwork %>
-1. <%= partbadge %> <%= pdfbadge %> <%= include_topic :hw_team_peer_reviews %>
+<%= include_topic :hw_team_peer_reviews %>
+{:start="2"}
 1. **Read**: these articles in preparation for a discussion:
 	* [The No.1 Predictor of Career Success](https://medium.com/life-learning/the-number-one-predictor-of-career-success-according-to-network-science)
 	* [The Most Important piece of advice for folks starting their careers](http://calacanis.com/2015/07/04/the-most-important-piece-of-advice-for-folks-starting-their-careers/)
