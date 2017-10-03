@@ -8,7 +8,7 @@ AWS_BUCKET = "cosi165a"
 
 # Course short name
 COURSE_SHORT_NAME = "CS 165a"
-COURSE_LONG_NAME = "Software Entrepreneurship '17"
+COURSE_LONG_NAME = "Software Entrepreneurship"
 COURSE_ABBREV = "cs165a"
 
 # Schedule information. Note that Monday is day 0

@@ -231,3 +231,8 @@ div.tipue_search_content_loc a {
 	  padding-right: 5px;
 	}
 }
+
+.alert.alert-info {
+  padding: 10px;
+  color: rgb(28, 21, 151);
+}
