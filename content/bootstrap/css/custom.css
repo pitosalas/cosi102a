@@ -1,3 +1,4 @@
+@import url("prettyquote.css");
 @import url(//fonts.googleapis.com/css?family=Telex);
 
 .themefg {
@@ -21,13 +22,16 @@
   font-weight: bold;
 }
 
-
 .navbar a.navbar-title {
-  font-size: 32px;
+  font-family: telex;
+  float: left;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 28px;
   color: white;
-  font-family: arial-black;
   white-space: nowrap;
-  -webkit-text-stroke: 1px rgb(189,122,56);
+  background-color: rgba(18, 0, 0, 0.5);
 }
 
 .nav-menus a.navbar-brand {
@@ -52,13 +56,6 @@
 .navbar a:hover {
 	color: white;
   text-decoration: none;
-}
-
-.navbar-title {
-  float: left;
-  height: 30px;
-  font-size: 18px;
-  line-height: 80px
 }
 
 .navbar .input-group-sm input{
