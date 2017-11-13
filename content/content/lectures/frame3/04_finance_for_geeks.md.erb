@@ -5,18 +5,17 @@ homework: TBD
 cat: Entrepreneurship
 ---
 <%= homework_hdr %>
-**Legend**: <%=partbadge%>:Participation <%= timebadge %>:Early <%= pdfbadge %>:PDF
+**Legend**: <%=partbadge%>: Participation | <%= timebadge %>: Early | <%= pdfbadge %>: PDF |  <%=cloudbadge %>: Portfolio | <%=zipbadge %>: Zipped
 
-1. Read [Paul Graham on Growth](http://www.paulgraham.com/growth.html)
+<%= include_topic :hw_talk_to_entrepreneur %>
+{:start="2"}
+1. **Spreadsheets:** Read and learn how to design good spreadsheets. Even if you think you know how, read both of these: [How to use a spreadsheet to create a simple budget](http://geekgirls.com/2013/08/spreadsheet-budget/) and [Good Spreadsheet Design](http://geekgirls.com/2013/08/good-spreadsheet-design/). Do all the examples in Google Sheets. Show off your knowledge of two important ideas in spreadsheets. Ceate a small but coherent example showing off the use of absolute and relative references, as well the use of the =VLOOKUP function. <%= deliverable "Submit the url of the google sheet with your work. Don't forget to make it accessible by all" %>
+1. **Teams**: Keep on meeting regularly! Continue working on Stage 3 of <%= link_to_section :welcome, :term_project_outline %>. Continue refining your product, getting more feedback and supporting information and preparing your <%= link_to_topic :cs165a_final_deliverables %>
 
-1. Read and learn how to design good spreadsheets. Even if you think you know how, read both of these: [How to use a spreadsheet to create a simple budget](http://geekgirls.com/2013/08/spreadsheet-budget/) and [Good Spreadsheet Design](http://geekgirls.com/2013/08/good-spreadsheet-design/). Do all the examples in Google Sheets. <%= deliverable "Submit the url of the google sheet with your work from the two pages. Don't forget to make accessible by all" %>
-1. Show off your knowledge of two important ideas in spreadsheets. Create a small, but meaninful example of the use of absolute and relative references, as well as a small but meaningful example of the user of the =VLOOKUP function. <%= deliverable "Submit the url of the google sheet with your work. Don't forget to make accessible by all" %>
-1. **Teams**: Meet for at least 2 hours per week! Continue working on Stage 3 of <%= link_to_section :welcome, :term_project_outline %>. Continue refining your product, getting more feedback and supporting information and preparing your <%= link_to_topic :cs165a_final_deliverables %>
-
-#### Interesting, optional reading
+#### For Further Study
+* [Paul Graham on Growth](http://www.paulgraham.com/growth.html)
 * [Your LTV Math is Wrong](http://bostonvcblog.typepad.com/vc/2015/10/your-ltv-math-is-wrong.html)
-* [Slides from today's class](http://finance4geeks.seed2a.com/)
-* [Operating Model Spreadsheet](http://operatingmodel.seed2a.com/)
+* [Jeffrey Beir's template business model Spreadsheet](http://operatingmodel.seed2a.com/)
 
 <%= include_topic :basic_financial_modeling %>
 

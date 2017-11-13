@@ -7,10 +7,7 @@ homework: 1) Submit Stage 2 deliverables
 <%= homework_hdr %>
 **Legend**: <%=partbadge%>: Participation | <%= timebadge %>: Early | <%= pdfbadge %>: PDF |  <%=cloudbadge %>: Portfolio | <%=zipbadge %>: Zipped
 
-1. <%= pdfbadge %> **Term Project Stage 2 Complete** Look at the <%= link_to_section :welcome,  :term_project_outline %> and make sure you have completed all the deliverables stated there. In addition, write and submit the <%= link_to_topic :iteration_retrospective %>. <%= deliverable "Iteration Retrospective as a pdf" %>. (Begin work on Stage 3!)
-{:start="2"}
-<%= include_topic :hw_talk_to_entrepreneur %>
-
+1. <%= pdfbadge %> **Term Project Stage 2 Complete** Look at the <%= link_to_section :welcome,  :term_project_outline %> and make sure you have completed all the deliverables stated there. <%= team_deliverable "Term project Stage 2 Deliverable" %>
 
 #### Guest Lecturer: Barry Ruditsky
 
@@ -19,3 +16,6 @@ Our speaker today is Barry Ruditsky.  You can find [information about Barry on L
 Barry will explore questions of pricing and business models, partnering, actually going into the market, and related topics.
 
 <a class="embedly-card" href="https://www.linkedin.com/in/barryruditsky">Barry Ruditsky | LinkedIn</a> <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+#### Next Class
+* Look at homework: <%= link_to_next_lecture %>
