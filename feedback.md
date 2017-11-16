@@ -12,3 +12,13 @@
 
 * Add a lecture about doing good presentations? Or add more live practice presentations? Or discover a workshop for presentations
 * Instead of a handout, have students develop a one page google site to describe their project for eternity.
+
+====-
+Fall 2017
+
+Questions to ask and how to do it!
+- lecture about how to ask the right question without leading
+- maybe roll playing
+- how to build a good questionnaire
+- how to turn the information into data
+- I can do some reasearch about this
