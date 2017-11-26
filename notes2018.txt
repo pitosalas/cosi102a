@@ -1,2 +1,3 @@
 #### Notes for this year
 * Consider adding Lean Startup Case Study
+* Add page count max on pilot, stage 1, 2 and final deliverables (15?) and make sure there is a rubric. This year we had a bit of a problem  because some of the TAs were over zealous on their grading and this led to some teams going nuts on the details they had for the interim reports
