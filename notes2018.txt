@@ -2,6 +2,20 @@
 * Consider adding Lean Startup Case Study
 * Add page count max on pilot, stage 1, 2 and final deliverables (15?) and make sure there is a rubric. This year we had a bit of a problem  because some of the TAs were over zealous on their grading and this led to some teams going nuts on the details they had for the interim reports
 * Get rid of "showcase day script" deliverables
+* Give a specific set of elements that must be in the slides and the presentation
+  * what is the pain (why the world sucks)
+  * what would alleviate the pain
+  * Describe the product show product screens. Make really sure audience understands what it is and what it does. Also make sure they understand what state the product is in (mockup, prototype, MVP, etc)
+  * What is the market and how big is it
+  * What is the Pricing
+  * Given that, some forecast or analysis
+  * Dont worry too much about costs
+  * Competition
+  * Why wasnt this done so far (or has it?)
+  * What are this team's qualifications?
+  * Conclusion and symmary
+* Give a specific yet high level outline for the project reports
+* Many teams didn't even show the product in their pitches
 
 Feedback from Class:
 
