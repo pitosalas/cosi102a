@@ -13,12 +13,12 @@ COURSE_ABBREV = "cs165a"
 
 # Schedule information. Note that Monday is day 0
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
-  first_day: "aug-31-2017",
+  first_day: "aug-30-2018",
   weekdays: [:tuesday, :thursday],
   start_times: ["15:30", "15:30"],
   end_times: ["16:50", "16:50"],
   number: 28,
-  skips: ["sep-21-2017", "oct-5-2017", "nov-23-2017"],
+  skips: [],
   start_time: "15:30",
   end_time: "16:50")
 
