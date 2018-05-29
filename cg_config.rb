@@ -1,7 +1,7 @@
 require 'coursegen'
 
 # Copyright string
-COPYRIGHT_STRING = "Copyright (2014-2017) R. Pito Salas, pitosalas@brandeis.edu"
+COPYRIGHT_STRING = "Copyright (2014-2018) R. Pito Salas, pitosalas@brandeis.edu"
 
 # Bucket Deployment of the course
 AWS_BUCKET = "cosi165a"
@@ -35,5 +35,5 @@ SECTION_CONFIG = [
 # Theme settings
 # bullet_style: css style for each bullet
 STYLING_CONFIG = {bullet_style: %("font-size: 60%; width: 10px; color: grey")}
-HOME_PAGE = "/content/background/02_syllabus.md.erb"
+HOME_PAGE = "/content/welcome/01_syllabus.md.erb"
 HELPFUL_BOX = false
