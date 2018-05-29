@@ -25,6 +25,7 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
 # Sections in the right hand margin of the page
 SECTION_CONFIG = [
   SectionDef.new("Welcome", "welcome", type: :section, collapsed: false, bullet: :star),
+  SectionDef.new("Term Project", "termproject", type: :section, collapsed: false, bullet: :star),
   SectionDef.new("Lectures", "lectures",
                  type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG, bullet: :dash),
   SectionDef.new("Background", "background", type: :section, collapsed: false),
