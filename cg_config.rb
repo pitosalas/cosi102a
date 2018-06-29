@@ -1,4 +1,4 @@
-require 'coursegen'
+require "coursegen"
 
 # Copyright string
 COPYRIGHT_STRING = "Copyright (2014-2018) R. Pito Salas, pitosalas@brandeis.edu"
@@ -9,7 +9,7 @@ AWS_BUCKET = "cosi165a"
 # Course short name
 COURSE_SHORT_NAME = "CS 165a"
 COURSE_LONG_NAME = "Software Entrepreneurship"
-COURSE_ABBREV = "cs165a"
+COURSE_ABBREV = "165a"
 
 # Schedule information. Note that Monday is day 0
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
@@ -18,9 +18,10 @@ LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
   start_times: ["15:30", "15:30"],
   end_times: ["16:50", "16:50"],
   number: 28,
-  skips: ["sep-6-2018"],
+  skips: ["sep-6-2018", "sep-11-2018", "sep=25-2018", "nov-22-2018"],
   start_time: "15:30",
-  end_time: "16:50")
+  end_time: "16:50",
+)
 
 # Sections in the right hand margin of the page
 SECTION_CONFIG = [
@@ -30,7 +31,7 @@ SECTION_CONFIG = [
                  type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG, bullet: :dash),
   SectionDef.new("Background", "background", type: :section, collapsed: false),
   SectionDef.new("Topics", "topics", hidden: true, type: :section),
-  SectionDef.new("Extras", "extras", hidden: true, type: :section)
+  SectionDef.new("Extras", "extras", hidden: true, type: :section),
 ]
 
 # Theme settings
