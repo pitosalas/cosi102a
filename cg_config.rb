@@ -28,6 +28,7 @@ SECTION_CONFIG = [
   SectionDef.new("Welcome", "welcome", type: :section, collapsed: false, bullet: :star),
   SectionDef.new("Lectures", "lectures",
                  type: :lecture, schedule: LECTURES_SCHEDULE_CONFIG, bullet: :dash),
+  SectionDef.new("Term Project", "term", type: :section, collapsed: false),
   SectionDef.new("Background", "background", type: :section, collapsed: false),
   SectionDef.new("Topics", "topics", hidden: true, type: :section),
   SectionDef.new("Extras", "extras", hidden: true, type: :section),
