@@ -1,24 +1,24 @@
 require "coursegen"
 
 # Copyright string
-COPYRIGHT_STRING = "Copyright (2014-2018) R. Pito Salas, pitosalas@brandeis.edu"
+COPYRIGHT_STRING = "Copyright (2014-2019) R. Pito Salas, pitosalas@brandeis.edu"
 
 # Bucket Deployment of the course
-AWS_BUCKET = "cosi165a"
+AWS_BUCKET = "cosi102a"
 
 # Course short name
-COURSE_SHORT_NAME = "CS 165a"
+COURSE_SHORT_NAME = "Cosi 102a"
 COURSE_LONG_NAME = "Software Entrepreneurship"
-COURSE_ABBREV = "165a"
+COURSE_ABBREV = "cs102a"
 
 # Schedule information. Note that Monday is day 0
 LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
-  first_day: "aug-30-2018",
+  first_day: "aug-29-2019",
   weekdays: [:tuesday, :thursday],
   start_times: ["15:30", "15:30"],
   end_times: ["16:50", "16:50"],
   number: 28,
-  skips: ["sep-6-2018", "sep-11-2018", "sep-25-2018", "nov-22-2018"],
+  skips: [],
   start_time: "15:30",
   end_time: "16:50",
 )
