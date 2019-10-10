@@ -3,7 +3,7 @@
 #
 guard :shell do
   # clearing :on
-  directories %w(. /mydev/cg-topics)
+  directories %w(. /Users/pitosalas/mydev/cg-topics)
   # watch(/.erb/) {`cg compile` }
   # watch(/.rb/) { `cg compile` }
   # watch(/Rules/) { `cg compile` }
