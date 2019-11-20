@@ -12,7 +12,7 @@ COURSE_LONG_NAME = "Software Entrepreneurship"
 COURSE_ABBREV = "cs102a"
 
 # Schedule information. Note that Monday is day 0
-LECTURES_SCHEDULE_CONFIG = ScheduleDef.new(
+LECTURES_SCHEDULE_CONFIG = ScheduleDef.new( 
   first_day: "aug-29-2019",
   weekdays: [:tuesday, :thursday],
   start_times: ["15:30", "15:30"],
@@ -37,5 +37,5 @@ SECTION_CONFIG = [
 # Theme settings
 # bullet_style: css style for each bullet
 STYLING_CONFIG = {bullet_style: %("font-size: 60%; width: 10px; color: grey")}
-HOME_PAGE = "/content/welcome/01_syllabus.md.erb"
+HOME_PAGE = "/content/welcome/01_syllabus.md.er
 HELPFUL_BOX = false
