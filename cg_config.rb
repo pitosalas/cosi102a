@@ -37,5 +37,5 @@ SECTION_CONFIG = [
 # Theme settings
 # bullet_style: css style for each bullet
 STYLING_CONFIG = {bullet_style: %("font-size: 60%; width: 10px; color: grey")}
-HOME_PAGE = "/content/welcome/01_syllabus.md.er
+HOME_PAGE = "/content/welcome/01_syllabus.md.erb"
 HELPFUL_BOX = false
