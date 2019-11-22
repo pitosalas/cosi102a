@@ -5,6 +5,7 @@
   * 2/3 of the students got their first choices
   * A few students were bent out of shape because they were not in their first choice
   * Also many misunderstood the process and thought that because they "pitched" the project they would automatically be on those teams.
+
 * Postit Notes
 
     + Energetic Lectures
@@ -36,3 +37,16 @@
     - More guidance on the pilot project
     - More about how to be effective in a team
     - More talk about projects in class
+
+* Shrink the front part on LS a little more to make sure we hit the other concepts
+* Terms that ought to be clear in their minds
+  * Go to market
+  * Product/Market Fit
+  * Unit Economics
+  * Customer Acquisition Cost
+  * Lifetime Value of a Customer
+  * Runway
+* Make sure attendance expectation is explained early
+* Consider throwing in a quiz
+* 
+
