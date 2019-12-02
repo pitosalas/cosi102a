@@ -2,6 +2,7 @@
 @import url("full-width-pics.css");
 @import url(//fonts.googleapis.com/css?family=Telex);
 @import url("postit.css");
+@import url("toasty.css")
 
 .themefg {
   color: rgb(64,56,207);
