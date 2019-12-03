@@ -1,34 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg bg-dark py-0">
+    <button class="navbar-toggler py-0" type="button" data-toggle="collapse"     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto nav">
-        <li class="nav-item text-large active">
-          <a class="nav-link" href="/content/welcome/02_coursetoc.md/">TOC</a>
-       </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/content/term/05_term_project_outline.md/">Project Outline</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/content/topics/syllabus/cosi165a_final_deliverables.md/">Deliverables</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/content/term/25_final_presentation.md/">Presentations</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="http://pitosalas.github.io/brandeisprojects/">Examples</a>
-        </li>
-      </ul>
-    </div>
-    <div class="navbar-control col-md-3">
+    <nav class="nav collapse navbar-collapse py-0" id="navbarSupportedContent">
+      <a class="nav-link py-0 text-light" href="/content/welcome/02_coursetoc.md/">TOC</a>
+      <a class="nav-link py-0 text-light" href="/content/term/05_term_project_outline.md/">Project Outline</a>
+      <a class="nav-link py-0 text-light" href="/content/topics/syllabus/cosi165a_final_deliverables.md/">Deliverables</a>
+      <a class="nav-link py-0 text-light" href="/content/term/25_final_presentation.md/">Presentations</a>
+      <a class="nav-link text-light" href="http://pitosalas.github.io/brandeisprojects/">Examples</a>
+    </nav>
+    <div class="navbar-control col-md-3 py-0">
       <form role="form" class="form-inline" action="/content/tipuesearch/search.md/index.html">
         <div class="input-group input-group-sm">
           <input type="text" class="form-control" placeholder="search..." name="q" id="tipue_search_input" autocomplete="off" required>
         </div>
       </form>
     </div>
-    <div class="btn-group btn-group-xs col-md-2">
+    <div class="nav col-md-3 py-0">
       <%if citem.section != "root" %>
         <%= link_to_prev toc, item %> <%= link_to_next toc, item %>
       <% end %>
