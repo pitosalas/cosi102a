@@ -8,10 +8,10 @@
 <body>
   <% @citem = Toc.instance.n2c(@item) %>
   <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> -->
     <%= render "/banner.*", toc: Toc.instance, item: item, citem: @citem %>
     <%= render "/nav-menus.*", toc: Toc.instance, item: item, citem: @citem %>
-  </nav>
+  <!-- </nav> -->
 
   <!-- Content Section -->
   <section>

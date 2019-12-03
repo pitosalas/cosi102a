@@ -2,7 +2,11 @@
 @import url("full-width-pics.css");
 @import url(//fonts.googleapis.com/css?family=Telex);
 @import url("postit.css");
-@import url("toasty.css")
+@import url("toasty.css");
+
+body {
+	padding-bottom: 40px;
+}
 
 .themefg {
   color: rgb(64,56,207);
@@ -29,7 +33,7 @@ a {
  color: rgb(64,56,207);
 }
 
-.navbar a.navbar-title {
+.masthead a {
   font-family: telex;
   float: left;
   margin-top: 20px;
@@ -85,16 +89,10 @@ h1, h2, h3, h4, h5{
 }
 
 h3 {
-  padding-top: 20px
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* h3.body-header {
-  margin-left: -15px;
-  margin-top: -10px;
-  margin-right: -15px;
-  margin-bottom: -22px;
-} */
 
 h4 {
 	margin-top: 20px;
@@ -103,15 +101,11 @@ h4 {
 }
 
 h5 {
-	margin-top: 15px;
+margin-top: 15px;
   font-weight: bold;
   font-variant: small-caps;
 }
 
-body {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
 
 footer {
 	padding-top: 20px;
