@@ -45,6 +45,10 @@ body {
   background-color: rgba(18, 0, 0, 0.3);
 }
 
+.sidebar {
+	background-color: rgb(247,241, 213);
+}
+
 .nav-menus a.navbar-brand {
   padding: 4px 10px;
   color: white;
