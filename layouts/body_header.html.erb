@@ -1,12 +1,12 @@
 <h3>
   <%= citem.title %> 
   <% if citem.lecture? %>
-	<small>
+	<span class="h6">
 		(<%= citem.lecture_date_s %>, <%= citem.lecture_number_s.to_s %>)
 			<%if citem.section != "root" %>
 				<%= link_to_prev toc, item %> <%=link_to_next toc, item %> 
 			<% end %>
-	</small>
+	</span>
 <% end %>
+<div class="h5"><%= citem.desc %></div>
 </h3>
-<h6><%= citem.desc %></h6>
