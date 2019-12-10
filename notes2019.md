@@ -24,6 +24,34 @@
     - More group time in class (2)
     - Less group work 
 
+Last day notes:
+- Take out a large part of the deliverables, near the stages that are happening
+- Put much more emphasis on the projects
+- Would have loved it with more stories and case studies
+- Some people do like the extra deliverables
+- Liked the excel and the finance
+- Liked the user interface
+- Liked the design, how to design the landing page
+- More specific rubric for stage 1
+- Would like more pitching the elevator pitch
+- Pilot project was rushed and maybe
+- Motorcycle über was hard to work with
+- Really interesting classes at the beginning - project management and scrum
+- Help students build a timeline, using the project management
+- Changing groups was hard from Pilot to Term Project
+- Would like to pick people you work wit
+- Help teams through the early sets of meetings
+- Spend some time learning technical skills - google Adsense - 
+- Comments on the book… Knock another week of the book
+- First day get people to list their names and their expertise
+- TAs:
+    - Didn’t really need them
+    - Really needed the TA
+    - TAs were more proactive
+    - TA should be willing to criticize and was Osamah
+    - Fred was good
+
+
     - Less class discussions (2)
     - Less Cold Calling (2)
     - Less reading assignments (3)
