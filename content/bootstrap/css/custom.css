@@ -4,9 +4,11 @@
 @import url("postit.css");
 @import url("toasty.css");
 
+html {
+  font-size: 0.9rem;
+}
 body {
   padding-bottom: 40px;
-  font-size: 0.9`rem;
 }
 
 .themefg {
