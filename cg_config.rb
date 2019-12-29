@@ -42,5 +42,5 @@ HELPFUL_BOX = false
 MENULINKS = [["TOC", "/content/welcome/02_coursetoc.md/"],
              ["Project Outline", "/content/term/05_term_project_outline.md/"],
              ["Deliverables", "/content/topics/syllabus/cosi165a_final_deliverables.md/"],
-             ["Presentations", "/content/term/25_final_presentation.md/"],
+             ["Presentations", "/content/topics/syllabus/cosi102a_final_presentation.md/"],
              ["Examples", "http://pitosalas.github.io/brandeisprojects/"]].freeze
