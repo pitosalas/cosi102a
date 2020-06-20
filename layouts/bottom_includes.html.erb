@@ -11,6 +11,9 @@
     // we create your config
     apiKey: '<%= SEARCH_CONFIG[:api_key] %>',
     indexName: '<%= SEARCH_CONFIG[:index_name] %>',
+    algoliaOptions: {
+    hitsPerPage: 30
+    },
     <% if SEARCH_CONFIG[:app_id] != '' %>
       appId: '<%= SEARCH_CONFIG[:app_id] %>',
     <% end %>
